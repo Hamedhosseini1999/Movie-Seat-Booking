@@ -57,7 +57,7 @@ body {
   margin: 3px;
 }
 .seat.selected {
-  background: royalblue;
+  background: #10cf96;
 }
 .seat.occupied {
   background: #fff;
@@ -77,4 +77,12 @@ body {
 .seat:hover:not(.occupied) {
   transform: scale(1.2);
   cursor: pointer;
+}
+
+.text {
+  margin: 20px 0;
+}
+
+.text span {
+  color: #10cf96;
 }
